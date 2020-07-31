@@ -80,7 +80,7 @@ function remove_admin_menus() {
 	   unset($menu[75]);
     }
 }
-add_action('admin_menu', 'remove_admin_menus');
+// add_action('admin_menu', 'remove_admin_menus');
 
 
 //管理バーの項目を削除
@@ -96,7 +96,7 @@ function remove_bar_menus( $wp_admin_bar ) {
     $wp_admin_bar->remove_menu( 'edit-profile' ); // マイアカウント -> プロフィール編集
     $wp_admin_bar->remove_menu( 'search' );       // 検索 (公開側)
 }
-add_action('admin_bar_menu', 'remove_bar_menus', 201);
+// add_action('admin_bar_menu', 'remove_bar_menus', 201);
 
 //記事一覧から消す
 function custom_columns ($columns) {
