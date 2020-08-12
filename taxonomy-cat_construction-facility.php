@@ -19,9 +19,9 @@ get_header(); ?>
                 <div class="inner">
                     <ul class="cf">
                       <li><a href="<?php echo get_archives_link('construction'); ?>">すべて</a></li>
-                      <li class="line2 active"><a href="<?php echo get_term_link('new', 'cat_construction') ?>">新築・リフォーム<br>リノベーション</a></li>
+                      <li class="line2"><a href="<?php echo get_term_link('new', 'cat_construction') ?>">新築・リフォーム<br>リノベーション</a></li>
                       <li><a href="<?php echo get_term_link('garden', 'cat_construction') ?>">お庭づくり</a></li>
-                      <li><a href="<?php echo get_term_link('facility', 'cat_construction') ?>">施設・緑地</a></li>
+                      <li class="active"><a href="<?php echo get_term_link('facility', 'cat_construction') ?>">施設・緑地</a></li>
                     </ul>
                 </div>
             </div>

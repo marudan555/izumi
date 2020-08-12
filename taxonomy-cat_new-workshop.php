@@ -18,7 +18,7 @@ get_header(); ?>
             <div class="menu">
                 <div class="inner">
                     <ul class="cf">
-                        <li class="active"><a href="<?php echo get_archives_link('news'); ?>">すべて</a></li>
+                        <li><a href="<?php echo get_archives_link('news'); ?>">すべて</a></li>
                         <li><a href="<?php echo get_term_link('info', 'cat_news') ?>">お知らせ</a></li>
                         <li><a href="<?php echo get_term_link('event', 'cat_news') ?>">イベント</a></li>
                         <li><a href="<?php echo get_term_link('machirire', 'cat_news') ?>">まちリレ</a></li>
@@ -35,7 +35,7 @@ get_header(); ?>
                                     $cate = $tarms[0]->name;
                                 ?>
                                 <li>
-                                  <a href="<?php echo get_permalink($value->ID); ?>">
+                                    <a href="<?php echo get_permalink($value->ID); ?>">                                    
 										<p class="categoryname"><?php echo $cate; ?></p>
                                         <div class="wrap-img">
                                     <?php if(get_field('thumbnail')): ?>
