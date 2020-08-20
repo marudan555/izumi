@@ -552,7 +552,7 @@ a.disabled{
 .table_type_02 tr {
 }
 .table_type_02 th {
-    width: 40%;
+    width: 30%;
     position: relative;
     box-sizing: border-box;
     padding: 15px 0px 15px 60px;
@@ -605,8 +605,8 @@ a.disabled{
     resize: none;
     min-height: 300px;
 }
-.formWrap{
-	width: 80%;
+.formWrap {
+	width: 90%;
 	margin: 0 auto;
 }
 .formWrap a{
