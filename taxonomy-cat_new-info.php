@@ -18,7 +18,7 @@ get_header(); ?>
             <div class="menu">
                 <div class="inner">
                     <ul class="cf">
-                        <li><a href="<?php echo get_archives_link('news'); ?>">すべて</a></li>
+                        <li><a href="<?php echo get_post_type_archive_link('news'); ?>">すべて</a></li>
                         <li class="active"><a href="<?php echo get_term_link('info', 'cat_news') ?>">お知らせ</a></li>
                         <li><a href="<?php echo get_term_link('event', 'cat_news') ?>">イベント</a></li>
                         <li><a href="<?php echo get_term_link('machirire', 'cat_news') ?>">まちリレ</a></li>
