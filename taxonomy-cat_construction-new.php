@@ -20,7 +20,7 @@ get_header(); ?>
                     <ul class="cf">
                       <li><a href="<?php echo get_post_type_archive_link('construction'); ?>">すべて</a></li>
                       <li class="line2 active"><a href="<?php echo get_term_link('new', 'cat_construction') ?>">新築・リフォーム<br>リノベーション</a></li>
-                      <li><a href="<?php echo get_term_link('garden', 'cat_construction') ?>">お庭づくり</a></li>
+                      <li><a href="<?php echo esc_url( home_url('/garden_no_post/') ); ?>">お庭づくり</a></li>
                       <li><a href="<?php echo get_term_link('facility', 'cat_construction') ?>">施設・緑地</a></li>
                     </ul>
                 </div>
