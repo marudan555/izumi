@@ -145,7 +145,7 @@ $(document).ready(function() {
     //AjaxZip3
     $(function(){
         $('.search-address_btn_1').click(function(){
-            AjaxZip3.zip2addr('zip_1_1', 'zip_1_2', 'address','address');
+            AjaxZip3.zip2addr('zip_1_1', 'zip_1_2', '住所','住所');
         });
         $('.search-address_btn_2').click(function(){
             AjaxZip3.zip2addr('zip_2_1', 'zip_2_2', 'address','address');

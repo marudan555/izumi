@@ -366,7 +366,7 @@
                                           <th>▶︎見学希望日<span class="sp_only">※必須</span></th>
                                           <td class="req txt_position">
                                               <span class="pc_only">※必須</span>
-                                              <input type="text" name="date" class="m datepicker" data-validation-engine="validate[required]">
+                                              <input type="text" name="見学希望日" class="m datepicker" data-validation-engine="validate[required]">
                                               <div class="wrap-text type_01">
                                                   <p class="red">※見学ご希望日1週間前までのご予約をお願いします。</p>
                                               </div>
@@ -375,20 +375,20 @@
                                       <tr>
                                           <th>▶︎見学希望時間<span class="sp_only">※必須</span></th>
                                           <td class="req"><span class="pc_only">※必須</span>
-                                              <label class="first"><input type="checkbox" name="time[]" value="10:30〜" data-validation-engine="validate[required]">10:30〜</label>
-                                              <label><input type="checkbox" name="time[]" value="11:00〜" data-validation-engine="validate[required]">11:00〜</label>
-                                              <label><input type="checkbox" name="time[]" value="13:00〜" data-validation-engine="validate[required]">13:00〜</label>
-                                              <label><input type="checkbox" name="time[]" value="13:30〜" data-validation-engine="validate[required]">13:30〜</label>
-                                              <label><input type="checkbox" name="time[]" value="14:00〜" data-validation-engine="validate[required]">14:00〜</label>
-                                              <label><input type="checkbox" name="time[]" value="14:30〜" data-validation-engine="validate[required]">14:30〜</label>
-                                              <label><input type="checkbox" name="time[]" value="15:00〜" data-validation-engine="validate[required]">15:00〜</label>
+                                              <label class="first"><input type="checkbox" name="見学希望時間[]" value="10:30〜" data-validation-engine="validate[required]">10:30〜</label>
+                                              <label><input type="checkbox" name="見学希望時間[]" value="11:00〜" data-validation-engine="validate[required]">11:00〜</label>
+                                              <label><input type="checkbox" name="見学希望時間[]" value="13:00〜" data-validation-engine="validate[required]">13:00〜</label>
+                                              <label><input type="checkbox" name="見学希望時間[]" value="13:30〜" data-validation-engine="validate[required]">13:30〜</label>
+                                              <label><input type="checkbox" name="見学希望時間[]" value="14:00〜" data-validation-engine="validate[required]">14:00〜</label>
+                                              <label><input type="checkbox" name="見学希望時間[]" value="14:30〜" data-validation-engine="validate[required]">14:30〜</label>
+                                              <label><input type="checkbox" name="見学希望時間[]" value="15:00〜" data-validation-engine="validate[required]">15:00〜</label>
                                           </td>
                                       </tr>
                                       <tr>
                                           <th>▶︎見学人数<span class="sp_only">※必須</span></th>
                                           <td class="req">
                                               <span class="pc_only">※必須</span>
-                                              <select name="people" id="">
+                                              <select name="見学人数" id="">
                                                   <option value="1">1</option>
                                                   <option value="2">2</option>
                                                   <option value="3">3</option>
@@ -400,11 +400,11 @@
                                       </tr>
                                       <tr>
                                           <th>▶︎代表者お名前<span class="sp_only">※必須</span></th>
-                                          <td class="req"><span class="pc_only">※必須</span><input type="text" name="name_1" class="m" data-validation-engine="validate[required]"></td>
+                                          <td class="req"><span class="pc_only">※必須</span><input type="text" name="代表者お名前" class="m" data-validation-engine="validate[required]"></td>
                                       </tr>
                                       <tr>
                                           <th>▶︎ふりがな<span class="sp_only">※必須</span></th>
-                                          <td class="req"><span class="pc_only">※必須</span><input type="text" name="name_2" class="m" data-validation-engine="validate[required]"></td>
+                                          <td class="req"><span class="pc_only">※必須</span><input type="text" name="ふりがな" class="m" data-validation-engine="validate[required]"></td>
                                       </tr>
                                       <tr>
                                           <th>▶︎郵便番号</th>
@@ -415,23 +415,23 @@
                                       </tr>
                                       <tr>
                                           <th>▶︎住所</th>
-                                          <td><input type="text" name="address" class="l"></td>
+                                          <td><input type="text" name="住所" class="l"></td>
                                       </tr>
                                       <tr>
                                           <th>▶︎ビル・建物名</th>
-                                          <td><input type="text" name="building" class="l"></td>
+                                          <td><input type="text" name="ビル・建物名" class="l"></td>
                                       </tr>
                                       <tr>
                                           <th>▶︎お電話番号</th>
-                                          <td><input type="text" name="tel_1" class="s"> ー <input type="text" name="tel_2" class="s"> ー <input type="text" name="tel_3" class="s"></td>
+                                          <td><input type="text" name="お電話番号" class="m"></td>
                                       </tr>
                                       <tr>
                                           <th>▶︎メールアドレス<span class="sp_only">※必須</span></th>
-                                          <td class="req"><span class="pc_only">※必須</span><input type="text" name="email" class="m" data-validation-engine="validate[required, custom[email]]"></td>
+                                          <td class="req"><span class="pc_only">※必須</span><input type="text" name="メールアドレス" class="m" data-validation-engine="validate[required, custom[email]]"></td>
                                       </tr>
                                       <tr>
                                           <th>▶︎個人情報保護方針<span class="sp_only">※必須</span></th>
-                                          <td class="req privacy"><span class="pc_only">※必須</span><label class="first"><input type="checkbox" name="privacy"  data-validation-engine="validate[required]"><a href="http://www.izumi-pts.co.jp/privacy/" target="_blank">個人情報保護方針</a>に同意します。</label></td>
+                                          <td class="req privacy"><span class="pc_only">※必須</span><label class="first"><input type="checkbox" name="個人情報保護方針" value="同意する"  data-validation-engine="validate[required]"><a href="http://www.izumi-pts.co.jp/privacy/" target="_blank">個人情報保護方針</a>に同意します。</label></td>
                                       </tr>
                                   </table>
                               </div>
