@@ -409,7 +409,7 @@
                                       <tr>
                                           <th>▶︎郵便番号</th>
                                           <td>
-                                              <input type="text" name="zip_1_1" class="s" size="4" maxlength="3"> ー <input type="text" name="zip_1_2" class="s" size="5" maxlength="4">
+                                              <input type="text" name="郵便番号" class="m" size="8" maxlength="8">
                                               <span class="search-address_btn_1">住所表示</span>
                                           </td>
                                       </tr>
