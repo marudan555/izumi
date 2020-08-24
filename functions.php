@@ -145,8 +145,7 @@ add_filter( 'wpcf7_validate', 'wpcf7_validate_spam_message', 10, 2 );
  ?>
  <script>
   jQuery(function($) {
-    $('.categorychecklist
-    input[type=checkbox]').each(function() {
+    $('.categorychecklist input[type=checkbox]').each(function() {
     $(this).replaceWith($(this).clone().attr('type', 'radio'));
   });
   $('.categorychecklist>li:first-child, .cat-checklist>li:first-child').before('<p style="padding-top:5px;">カテゴリーは1つしか選択できません</p>');
