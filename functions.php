@@ -141,7 +141,7 @@ add_filter( 'wpcf7_validate', 'wpcf7_validate_spam_message', 10, 2 );
 /*
  * 投稿、クイック編集でのカテゴリー選択を1つに制限処理
  */
- function category_one_select() {
+ function category_radio() {
  ?>
  <script>
   jQuery(function($) {
