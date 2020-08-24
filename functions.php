@@ -143,22 +143,17 @@ add_filter( 'wpcf7_validate', 'wpcf7_validate_spam_message', 10, 2 );
  */
  function category_one_select() {
  ?>
- <script type="text/javascript">
-   jQuery(function($) {
-     var categorydiv = $( '#cat_newschecklist input[type=checkbox]' );
-     categorydiv.click( function() {
-       $(this).parents( '#cat_newschecklist' ).find( 'input[type=checkbox]' ).attr('checked', false);
-     $(this).attr( 'checked', true );
-   });
-   var inline_edit_col_center = $( '.inline-edit-col-center input[type=checkbox]' );
-   inline_edit_col_center.click( function() {
-     $(this).parents( '.inline-edit-col-center' ).find( 'input[type=checkbox]' ).attr( 'checked', false );
-     $(this).attr( 'checked', true );
-     });
-     $('.categorychecklist>li:first-child, .cat-checklist>li:first-child').before('<p style="padding-top:5px;">カテゴリーは1つしか選択できません</p>');
-   });
- </script>
+ <script>
+  jQuery(function($) {
+    $('.categorychecklist
+    input[type=checkbox]').each(function() {
+    $(this).replaceWith($(this).clone().attr('type', 'radio'));
+  });
+  $('.categorychecklist>li:first-child, .cat-checklist>li:first-child').before('<p style="padding-top:5px;">カテゴリーは1つしか選択できません</p>');
+});
+</script>
  <?php
  }
- add_action( 'admin_print_footer_scripts', 'category_one_select' );
+ add_action( 'admin_head-post-new.php', 'category_radio' );
+add_action( 'admin_head-post.php', 'category_radio' );
 ?>
