@@ -145,9 +145,9 @@ add_filter( 'wpcf7_validate', 'wpcf7_validate_spam_message', 10, 2 );
  ?>
  <script type="text/javascript">
    jQuery(function($) {
-     var categorydiv = $( '#categorydiv input[type=checkbox]' );
+     var categorydiv = $( '#cat_newschecklist input[type=checkbox]' );
      categorydiv.click( function() {
-       $(this).parents( '#categorydiv' ).find( 'input[type=checkbox]' ).attr('checked', false);
+       $(this).parents( '#cat_newschecklist' ).find( 'input[type=checkbox]' ).attr('checked', false);
      $(this).attr( 'checked', true );
    });
    var inline_edit_col_center = $( '.inline-edit-col-center input[type=checkbox]' );
