@@ -141,38 +141,24 @@ add_filter( 'wpcf7_validate', 'wpcf7_validate_spam_message', 10, 2 );
 /*
  * 投稿、クイック編集でのカテゴリー選択を1つに制限処理
  */
-add_action( 'admin_print_footer_scripts', 'limit_category_select' );
-function limit_category_select() {
-?>
-<script type="text/javascript">
-  jQuery(function($) {
-    // 投稿画面のカテゴリー選択を制限
-    var cat_checklist = $('.categorychecklist input[type=checkbox]');
-    cat_checklist.click( function() {
-        $(this).parents('.categorychecklist').find('input[type=checkbox]').attr('checked', false);
-        $(this).attr('checked', true);
-    });
-    // クイック編集のカテゴリー選択を制限
-    var quickedit_cat_checklist = $('.cat_construction input[type=checkbox]');
-    quickedit_cat_checklist.click( function() {
-        $(this).parents('.cat_construction').find('input[type=checkbox]').attr('checked', false);
-        $(this).attr('checked', true);
-    });
-    $('.categorychecklist>li:first-child, .cat-checklist>li:first-child').before('<p style="padding-top:5px;">カテゴリーは1つしか選択できません</p>');
-  });
-</script>
-<?php
-}
-
-//フッターにスクリプト表示(contactform7 finishpage)
-// function add_footer_script() {
-//     if(is_page('contact')){
-//         echo '<script type="text/javascript">
-//         document.addEventListener( \'wpcf7mailsent\', function( event ) {
-//             location = \'/cms/contact/finish/\';
-//         }, false );
-//       </script>';
-// 	}
-// }
-// add_action( 'wp_print_footer_scripts', 'add_footer_script', 100 );
+ function category_one_select() {
+ ?>
+ <script type="text/javascript">
+   jQuery(function($) {
+     var categorydiv = $( '#categorydiv input[type=checkbox]' );
+     categorydiv.click( function() {
+       $(this).parents( '#categorydiv' ).find( 'input[type=checkbox]' ).attr('checked', false);
+     $(this).attr( 'checked', true );
+   });
+   var inline_edit_col_center = $( '.inline-edit-col-center input[type=checkbox]' );
+   inline_edit_col_center.click( function() {
+     $(this).parents( '.inline-edit-col-center' ).find( 'input[type=checkbox]' ).attr( 'checked', false );
+     $(this).attr( 'checked', true );
+     });
+   });
+   $('.categorychecklist>li:first-child, .cat-checklist>li:first-child').before('<p style="padding-top:5px;">カテゴリーは1つしか選択できません</p>');
+ </script>
+ <?php
+ }
+ add_action( 'admin_print_footer_scripts', 'category_one_select' );
 ?>
