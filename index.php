@@ -65,15 +65,6 @@
 
  <!--<div class="wrap-bnr_azride"><a href="<?php echo home_url("/"); ?>azride" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/common/images/banner.jpg" alt="AZ RIDE"></a></div>-->
 
-
-<div class="new_banner">
-    <!--<div class="new_banner_img"><a href="<?php echo home_url("/"); ?>ecola" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/common/images/new_banner0.jpg?2019" alt=""></a></div>-->
-    <div class="new_banner_img"><a href="<?php echo home_url("/"); ?>azride" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/common/images/new_banner1.jpg" alt=""></a></div>
-    <div style="clear:both;"></div>
-</div>
-
-
-
     <article>
         <div class="area_section_news contarea sp_contarea">
             <div class="cont_inner">
