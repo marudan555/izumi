@@ -155,8 +155,8 @@ add_filter( 'wpcf7_validate', 'wpcf7_validate_spam_message', 10, 2 );
      $(this).parents( '.inline-edit-col-center' ).find( 'input[type=checkbox]' ).attr( 'checked', false );
      $(this).attr( 'checked', true );
      });
+     $('.categorychecklist>li:first-child, .cat-checklist>li:first-child').before('<p style="padding-top:5px;">カテゴリーは1つしか選択できません</p>');
    });
-   $('.categorychecklist>li:first-child, .cat-checklist>li:first-child').before('<p style="padding-top:5px;">カテゴリーは1つしか選択できません</p>');
  </script>
  <?php
  }
