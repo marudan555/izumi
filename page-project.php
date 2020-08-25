@@ -17,7 +17,7 @@
     $taxonomy[] = array(
         'taxonomy' => "cat_news",
         'field' => 'slug',
-        'terms' => 'まちリレ',
+        'terms' => 'machirire',
     );
     array_push($args['tax_query'],$taxonomy);
     $the_query = new WP_Query($args);
