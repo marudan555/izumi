@@ -224,7 +224,7 @@
                         </div>
                         <ul class="list_btn">
                             <li><a href="<?php echo home_url("/"); ?>renovation"><span>施工メニュー</span></a></li>
-                            <li><a href="<?php echo home_url("/"); ?>construction/?cate=新築・リフォームリノベーション"><span>施工例</span></a></li>
+                            <li><a href="<?php echo get_term_link('new', 'cat_construction') ?>"><span>施工例</span></a></li>
                         </ul>
                     </div>
                     <div class="area_service_detail garden_detail">
@@ -243,7 +243,7 @@
                         </div>
                         <ul class="list_btn">
                             <li><a href="<?php echo home_url("/"); ?>garden"><span>施工メニュー</span></a></li>
-                            <li><a href="<?php echo home_url("/"); ?>construction/?cate=お庭づくり"><span>施工例</span></a></li>
+                            <li><a href="<?php echo esc_url( home_url('/garden_no_post/') ); ?>"><span>施工例</span></a></li>
                         </ul>
                     </div>
                     <div class="area_service_detail insuarance_detail">
