@@ -9,7 +9,7 @@
         <div class="area_footerinfo">
             <div class="footer_cinfo">
                 <p class="logo prg"><img src="<?php echo get_template_directory_uri(); ?>/common/images/logo.png" alt="泉パークタウンサービス"></p>
-                <a class="btn_contact prg" href="<?php echo home_url("/"); ?>contact"><img src="<?php echo get_template_directory_uri(); ?>/common/images/btn_contact.svg" alt="メールでのお問い合わせ"></a>
+                <a class="btn_contact prg" href="<?php echo home_url("/"); ?>contact/"><img src="<?php echo get_template_directory_uri(); ?>/common/images/btn_contact.svg" alt="メールでのお問い合わせ"></a>
                 <address class="telnum">
                     <a href="tel:0120-48-7722"><img src="<?php echo get_template_directory_uri(); ?>/common/images/tel.svg" alt="0120-48-7722 営業時間 10:00～17:30"></a><br class="pc_only">
                     <img src="<?php echo get_template_directory_uri(); ?>/common/images/fax.svg" alt="FAX:022-377-8605">

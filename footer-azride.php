@@ -25,7 +25,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="/business">事業内容</a>
+                        <a href="/business/">事業内容</a>
                         <ul class="subcategory">
                             <li><a href="/renovation/">新築・リフォーム・リノベーション</a></li>
                             <li><a href="/garden/">お庭づくり・メンテンナンス</a></li>
@@ -35,10 +35,10 @@
                 </ul>
                 <ul class="navi_list">
                     <li>
-                        <a href="/adopt">採用情報</a>
+                        <a href="/adopt/">採用情報</a>
                         <ul class="subcategory">
-                            <li><a href="/adopt#sec_02">先輩インタビュー</a></li>
-                            <li><a href="/adopt#sec_01">募集要項</a></li>
+                            <li><a href="/adopt/#sec_02">先輩インタビュー</a></li>
+                            <li><a href="/adopt/#sec_01">募集要項</a></li>
                         </ul>
                     </li>
                     <li><a href="/news/">お知らせ</a></li>
