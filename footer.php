@@ -35,7 +35,7 @@
                 <ul class="navi_list">
 					<li><a href="<?php echo home_url("/"); ?>life/">泉パークタウンについて</a></li>
                     <li>
-                        <a href="<?php echo home_url("/"); ?>adopt">採用情報</a>
+                        <a href="<?php echo home_url("/"); ?>adopt/">採用情報</a>
                         <ul class="subcategory">
                             <li><a href="<?php echo home_url("/"); ?>adopt/#sec_02">社員インタビュー</a></li>
                             <li><a href="<?php echo home_url("/"); ?>adopt/#sec_01">募集要項</a></li>

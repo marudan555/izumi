@@ -155,4 +155,14 @@ add_filter( 'wpcf7_validate', 'wpcf7_validate_spam_message', 10, 2 );
  }
  add_action( 'admin_head-post-new.php', 'category_radio' );
 add_action( 'admin_head-post.php', 'category_radio' );
+
+/*
+ * 固定ページでGutenberg無効
+ */
+add_filter( 'use_block_editor_for_post_type', 'hide_block_editor', 10, 10 );
+function hide_block_editor( $use_block_editor, $post_type ) {
+  if ( $post_type === 'page' ) return false;
+  return $use_block_editor;
+}
+
 ?>
