@@ -25,7 +25,7 @@
 							<li><a href="<?php echo home_url("/"); ?>estate/">不動産</a></li>
                             <li><a href="<?php echo home_url("/"); ?>renovation/">新築・リフォーム・リノベーション</a></li>
                             <li><a href="<?php echo home_url("/"); ?>garden/">お庭づくり・メンテンナンス</a></li>
-							<li><a href="<?php echo home_url("/"); ?>facility">施設・緑地のメンテナンス</a></li>
+							<li><a href="<?php echo home_url("/"); ?>facility/">施設・緑地のメンテナンス</a></li>
                             <li><a href="<?php echo home_url("/"); ?>construction/">施工例</a></li>
                         </ul>
                     </li>
