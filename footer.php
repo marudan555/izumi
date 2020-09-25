@@ -69,6 +69,20 @@
     });
 </script>
 <?php endif; ?>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> -->
+<?php is_page('renovation'): ?>
+<script>
+$(function() {
+	$('.tab li').click(function() {
+		var index = $('.tab li').index(this);
+		$('.content li').css('display','none');
+		$('.content li').eq(index).css('display','block');
+		$('.tab li').removeClass('select');
+		$(this).addClass('select');
+	});
+});
+</script>
+<?php endif; ?>
 <?php wp_footer(); ?>
 </body>
 </html>
