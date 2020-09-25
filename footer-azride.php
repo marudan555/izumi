@@ -16,9 +16,9 @@
             <nav class="footer_navi">
                 <ul class="navi_list">
                     <li><a href="/">トップページ</a></li>
-                    <li><a href="/company">企業情報</a></li>
+                    <li><a href="/company/">企業情報</a></li>
                     <li>
-                        <a href="/estate">不動産（物件情報ページ）</a>
+                        <a href="/estate/">不動産（物件情報ページ）</a>
                         <ul class="subcategory">
                             <li><a href="/estate.php#sec_02" class="icon_outside">不動産を売りたい</a></li>
                             <li><a href="/estate.php#sec_03" class="icon_outside">不動産を貸したい</a></li>
@@ -27,9 +27,9 @@
                     <li>
                         <a href="/business">事業内容</a>
                         <ul class="subcategory">
-                            <li><a href="/renovation">新築・リフォーム・リノベーション</a></li>
-                            <li><a href="/garden">お庭づくり・メンテンナンス</a></li>
-                            <li><a href="/construction">施工例</a></li>
+                            <li><a href="/renovation/">新築・リフォーム・リノベーション</a></li>
+                            <li><a href="/garden/">お庭づくり・メンテンナンス</a></li>
+                            <li><a href="/construction/">施工例</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -41,9 +41,9 @@
                             <li><a href="/adopt#sec_01">募集要項</a></li>
                         </ul>
                     </li>
-                    <li><a href="/news">お知らせ</a></li>
-                    <li><a href="/access">アクセス</a></li>
-                    <li><a href="/privacy">個人情報保護方針</a></li>
+                    <li><a href="/news/">お知らせ</a></li>
+                    <li><a href="/access/">アクセス</a></li>
+                    <li><a href="/privacy/">個人情報保護方針</a></li>
                 </ul>
             </nav>
         </div>

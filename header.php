@@ -23,17 +23,17 @@
                 </div>
                 <nav class="header_nav">
                     <ul class="nav1">
-                        <li><a href="<?php echo home_url("/"); ?>business">事業内容</a></li>
-                        <li><a href="<?php echo home_url("/"); ?>company">企業情報</a></li>
-                        <li><a href="<?php echo home_url("/"); ?>life">泉パークタウンについて</a></li>
-                        <li><a href="<?php echo home_url("/"); ?>access">アクセス</a></li>
-                        <li><a href="<?php echo home_url("/"); ?>adopt">採用情報</a></li>
-                        <li><a href="<?php echo home_url("/"); ?>contact">お問合せ</a></li>
+                        <li><a href="<?php echo home_url("/"); ?>business/">事業内容</a></li>
+                        <li><a href="<?php echo home_url("/"); ?>company/">企業情報</a></li>
+                        <li><a href="<?php echo home_url("/"); ?>life/">泉パークタウンについて</a></li>
+                        <li><a href="<?php echo home_url("/"); ?>access/">アクセス</a></li>
+                        <li><a href="<?php echo home_url("/"); ?>adopt/">採用情報</a></li>
+                        <li><a href="<?php echo home_url("/"); ?>contact/">お問合せ</a></li>
                     </ul>
                     <ul class="nav2">
-                        <li class="realestate"><a href="<?php echo home_url("/"); ?>estate">不動産</a></li>
-                        <li class="build"><a href="<?php echo home_url("/"); ?>renovation">新築・リフォーム・リノベーション</a></li>
-                        <li class="garden"><a href="<?php echo home_url("/"); ?>garden">お庭づくり・メンテナンス</a></li>
+                        <li class="realestate"><a href="<?php echo home_url("/"); ?>estate/">不動産</a></li>
+                        <li class="build"><a href="<?php echo home_url("/"); ?>renovation/">新築・リフォーム・リノベーション</a></li>
+                        <li class="garden"><a href="<?php echo home_url("/"); ?>garden/">お庭づくり・メンテナンス</a></li>
                     </ul>
                 </nav>
             </div>

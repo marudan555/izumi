@@ -88,7 +88,7 @@
                             ?>
                     <li>
                         <?php if($cate == "まちリレ"): ?>
-                        <a href="<?php echo home_url("/"); ?>project">
+                        <a href="<?php echo home_url("/"); ?>project/">
                         <?php else: ?>
                         <a href="<?php echo get_permalink($value->ID); ?>">
                         <?php endif; ?>
@@ -111,7 +111,7 @@
                     <?php endif; ?>
                     <?php wp_reset_query();?>
                 </ul>
-                <div class="al_center"><a href="<?php echo home_url("/"); ?>news" class="btn_all"><img src="<?php echo get_template_directory_uri(); ?>/common/images/top/btn_newall.svg" alt="VIEW ALL"></a></div>
+                <div class="al_center"><a href="<?php echo home_url("/"); ?>news/" class="btn_all"><img src="<?php echo get_template_directory_uri(); ?>/common/images/top/btn_newall.svg" alt="VIEW ALL"></a></div>
             </div>
         </div>
         <section class="area_section_needs">
@@ -119,13 +119,13 @@
             <div class="pc_only area_needs_detail">
                 <img src="<?php echo get_template_directory_uri(); ?>/common/images/top/img_needs.jpg" alt="" class="img_needs">
                 <ul class="list_needs">
-                    <li class="link_realestate"><a href="<?php echo home_url("/"); ?>estate"><img src="<?php echo get_template_directory_uri(); ?>/common/images/top/link_realestate.png" alt="不動産（売買・賃貸）"></a></li>
-                    <li class="link_exterior"><a href="<?php echo home_url("/"); ?>garden#sec_02"><img src="<?php echo get_template_directory_uri(); ?>/common/images/top/link_exterior.png" alt="外装・エクステリア"></a></li>
-                    <li class="link_garden"><a href="<?php echo home_url("/"); ?>garden"><img src="<?php echo get_template_directory_uri(); ?>/common/images/top/link_garden.png" alt="お庭づくり"></a></li>
+                    <li class="link_realestate"><a href="<?php echo home_url("/"); ?>estate/"><img src="<?php echo get_template_directory_uri(); ?>/common/images/top/link_realestate.png" alt="不動産（売買・賃貸）"></a></li>
+                    <li class="link_exterior"><a href="<?php echo home_url("/"); ?>garden/#sec_02"><img src="<?php echo get_template_directory_uri(); ?>/common/images/top/link_exterior.png" alt="外装・エクステリア"></a></li>
+                    <li class="link_garden"><a href="<?php echo home_url("/"); ?>garden/"><img src="<?php echo get_template_directory_uri(); ?>/common/images/top/link_garden.png" alt="お庭づくり"></a></li>
                     <li class="link_interior"><a href="<?php echo home_url("/"); ?>renovation/#sec_02"><img src="<?php echo get_template_directory_uri(); ?>/common/images/top/link_interior.png" alt="室内空間リフォーム"></a></li>
                     <li class="link_parking"><a href="https://map.cyber-estate.jp/map/index.asp?ggid=804013&gid=804013&sbt=3&scrd=2&sc6=1&sc7=1&sc9=1&service=2" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/common/images/top/link_parking.png" alt="駐車場"></a></li>
-                    <li class="link_maintenance"><a href="<?php echo home_url("/"); ?>garden#sec_03"><img src="<?php echo get_template_directory_uri(); ?>/common/images/top/link_maintenance.png" alt="お庭のメンテナンス"></a></li>
-                    <li class="link_renovation"><a href="<?php echo home_url("/"); ?>renovation#sec_01"><img src="<?php echo get_template_directory_uri(); ?>/common/images/top/link_renovation.png" alt="外装・リフォーム"></a></li>
+                    <li class="link_maintenance"><a href="<?php echo home_url("/"); ?>garden/#sec_03"><img src="<?php echo get_template_directory_uri(); ?>/common/images/top/link_maintenance.png" alt="お庭のメンテナンス"></a></li>
+                    <li class="link_renovation"><a href="<?php echo home_url("/"); ?>renovation/#sec_01"><img src="<?php echo get_template_directory_uri(); ?>/common/images/top/link_renovation.png" alt="外装・リフォーム"></a></li>
 
                 </ul>
             </div>
@@ -135,23 +135,23 @@
                     <div class="area_needs_detail">
                         <ol class="list_needs">
                             <li>
-                                <a href="<?php echo home_url("/"); ?>estate"><h3 class="tit_needs">不動産（売買・賃貸）</h3></a>
+                                <a href="<?php echo home_url("/"); ?>estate/"><h3 class="tit_needs">不動産（売買・賃貸）</h3></a>
                                 <p>売る、買う、貸す、借りる。泉パークタウンのプロにしかできない「安心」と「価値」をサポートします。</p>
                             </li>
                             <li>
-                                <a href="<?php echo home_url("/"); ?>renovation#sec_01"><h3 class="tit_needs">外装・リフォーム</h3></a>
+                                <a href="<?php echo home_url("/"); ?>renovation/#sec_01"><h3 class="tit_needs">外装・リフォーム</h3></a>
                                 <p>見た目の化粧直しだけではなく、建物の状況に合わせた診断と改修プランをご提案します。</p>
                             </li>
                             <li>
-                                <a href="<?php echo home_url("/"); ?>garden#sec_02"><h3 class="tit_needs">外構・エクステリア</h3></a>
+                                <a href="<?php echo home_url("/"); ?>garden/#sec_02"><h3 class="tit_needs">外構・エクステリア</h3></a>
                                 <p>フェンス設置、駐輪場拡張、バリアフリー工事など、豊富な経験値とアイデアでバックアップいたします。</p>
                             </li>
                             <li>
-                                <a href="<?php echo home_url("/"); ?>garden"><h3 class="tit_needs">お庭づくり</h3></a>
+                                <a href="<?php echo home_url("/"); ?>garden/"><h3 class="tit_needs">お庭づくり</h3></a>
                                 <p>やすらぎと日が共存する庭づくり。ユーティリティ性とデザイン性のトータルプロデュースが可能です。</p>
                             </li>
                             <li>
-                                <a href="<?php echo home_url("/"); ?>garden#sec_03"><h3 class="tit_needs">お庭のメンテナンス</h3></a>
+                                <a href="<?php echo home_url("/"); ?>garden/#sec_03"><h3 class="tit_needs">お庭のメンテナンス</h3></a>
                                 <p>お庭に再考で高まる暮らし方をご提案。手入れを軽減したりご要望を叶えるお庭のご提案をいたします。</p>
                             </li>
                             <li>
@@ -223,7 +223,7 @@
                             </div>
                         </div>
                         <ul class="list_btn">
-                            <li><a href="<?php echo home_url("/"); ?>renovation"><span>施工メニュー</span></a></li>
+                            <li><a href="<?php echo home_url("/"); ?>renovation/"><span>施工メニュー</span></a></li>
                             <li><a href="<?php echo get_term_link('new', 'cat_construction') ?>"><span>施工例</span></a></li>
                         </ul>
                     </div>
@@ -242,7 +242,7 @@
                             </div>
                         </div>
                         <ul class="list_btn">
-                            <li><a href="<?php echo home_url("/"); ?>garden"><span>施工メニュー</span></a></li>
+                            <li><a href="<?php echo home_url("/"); ?>garden/"><span>施工メニュー</span></a></li>
                             <li><a href="<?php echo esc_url( home_url('/garden_no_post/') ); ?>"><span>施工例</span></a></li>
                         </ul>
                     </div>
@@ -268,7 +268,7 @@
                             <h4 class="tit_other">泉パークタウンってこんなまち</h4>
                             <p class="lead_other">トータルバランスのとれた理想の都市をめざして。</p>
                             <p>総開発面積1,070ha。泉パークタウンのマスタープランに描かれたこのスケール。未来へ向かって大きく成長を続けています。</p>
-                            <a href="<?php echo home_url("/"); ?>life" class="btn_detail">詳しくはこちら</a>
+                            <a href="<?php echo home_url("/"); ?>life/" class="btn_detail">詳しくはこちら</a>
                         </div>
                     </div>
                 </div>
@@ -279,7 +279,7 @@
                             <h4 class="tit_other">施設・緑地のメンテナンス</h4>
                             <p class="lead_other">街づくりをサポートし人と人を繋ぐ会社を目指す。</p>
                             <p>商業施設や事務所・泉パークタウンなどの緑の維持管理を行うことで、安らぎをもたらす魅力的な環境をトータルマネジメント。</p>
-                            <a href="<?php echo home_url("/"); ?>facility" class="btn_detail">詳しくはこちら</a>
+                            <a href="<?php echo home_url("/"); ?>facility/" class="btn_detail">詳しくはこちら</a>
                         </div>
                     </div>
                 </div>
@@ -290,7 +290,7 @@
                             <h4 class="tit_other">まちリレーションプロジェクト</h4>
                             <p class="lead_other">地域の皆さまと一緒に様々な活動を行うプロジェクト。</p>
                             <p>全社員が泉パークタウンの各エリアの担当を持ち、行事に参加したり皆さまの声を聞きにお伺いしたり致します。</p>
-                            <a href="<?php echo home_url("/"); ?>project" class="btn_detail">詳しくはこちら</a>
+                            <a href="<?php echo home_url("/"); ?>project/" class="btn_detail">詳しくはこちら</a>
                         </div>
                     </div>
                 </div>
@@ -301,7 +301,7 @@
                             <h4 class="tit_other">アクセス</h4>
                             <p>仙台市泉区高森7丁目2番<br>
                             ショッピングガーデン・キャラウェイ1階</p>
-                            <a href="<?php home_url("/"); ?>access" class="btn_detail">詳しくはこちら</a>
+                            <a href="<?php home_url("/"); ?>access/" class="btn_detail">詳しくはこちら</a>
                         </div>
                     </div>
                 </div>

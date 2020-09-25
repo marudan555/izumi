@@ -20,31 +20,31 @@
                 <ul class="navi_list">
                     <li><a href="<?php echo home_url("/"); ?>">トップページ</a></li>
 					<li>
-                        <a href="<?php echo home_url("/"); ?>business">事業内容</a>
+                        <a href="<?php echo home_url("/"); ?>business/">事業内容</a>
                         <ul class="subcategory">
-							<li><a href="<?php echo home_url("/"); ?>estate">不動産</a></li>
-                            <li><a href="<?php echo home_url("/"); ?>renovation">新築・リフォーム・リノベーション</a></li>
-                            <li><a href="<?php echo home_url("/"); ?>garden">お庭づくり・メンテンナンス</a></li>
+							<li><a href="<?php echo home_url("/"); ?>estate/">不動産</a></li>
+                            <li><a href="<?php echo home_url("/"); ?>renovation/">新築・リフォーム・リノベーション</a></li>
+                            <li><a href="<?php echo home_url("/"); ?>garden/">お庭づくり・メンテンナンス</a></li>
 							<li><a href="<?php echo home_url("/"); ?>facility">施設・緑地のメンテナンス</a></li>
-                            <li><a href="<?php echo home_url("/"); ?>construction">施工例</a></li>
+                            <li><a href="<?php echo home_url("/"); ?>construction/">施工例</a></li>
                         </ul>
                     </li>
-                    <li><a href="<?php echo home_url("/"); ?>company">企業情報</a></li>
+                    <li><a href="<?php echo home_url("/"); ?>company/">企業情報</a></li>
 
                 </ul>
                 <ul class="navi_list">
-					<li><a href="<?php echo home_url("/"); ?>life">泉パークタウンについて</a></li>
+					<li><a href="<?php echo home_url("/"); ?>life/">泉パークタウンについて</a></li>
                     <li>
                         <a href="<?php echo home_url("/"); ?>adopt">採用情報</a>
                         <ul class="subcategory">
-                            <li><a href="<?php echo home_url("/"); ?>adopt#sec_02">社員インタビュー</a></li>
-                            <li><a href="<?php echo home_url("/"); ?>adopt#sec_01">募集要項</a></li>
+                            <li><a href="<?php echo home_url("/"); ?>adopt/#sec_02">社員インタビュー</a></li>
+                            <li><a href="<?php echo home_url("/"); ?>adopt/#sec_01">募集要項</a></li>
                         </ul>
                     </li>
-                    <li><a href="<?php echo home_url("/"); ?>news">お知らせ</a></li>
-                    <li><a href="<?php echo home_url("/"); ?>access">アクセス</a></li>
-					<li><a href="<?php echo home_url("/"); ?>contact">お問い合わせ</a></li>
-                    <li><a href="<?php echo home_url("/"); ?>privacy">個人情報保護方針</a></li>
+                    <li><a href="<?php echo home_url("/"); ?>news/">お知らせ</a></li>
+                    <li><a href="<?php echo home_url("/"); ?>access/">アクセス</a></li>
+					<li><a href="<?php echo home_url("/"); ?>contact/">お問い合わせ</a></li>
+                    <li><a href="<?php echo home_url("/"); ?>privacy/">個人情報保護方針</a></li>
                 </ul>
             </nav>
         </div>
