@@ -70,7 +70,7 @@
 </script>
 <?php endif; ?>
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> -->
-<?php is_page('renovation'): ?>
+<?php if ( is_page('renovation') ): ?>
 <script>
 $(function() {
 	$('.tab li').click(function() {
