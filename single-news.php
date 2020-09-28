@@ -33,7 +33,7 @@ get_header(); ?>
             </div>
             <div class="wrap-btn">
                 <div class="inner">
-                    <a href="<?php echo home_url("/"); ?>news" class="btn_detail back">前のページへ戻る</a>
+                    <a href="<?php echo home_url("/"); ?>news/" class="btn_detail back">前のページへ戻る</a>
                 </div>
             </div>
         </div>
