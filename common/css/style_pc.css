@@ -2261,7 +2261,7 @@ text-align: center;}
 	margin-bottom:60px;
 }
 .new_banner_img {
-	width:550px;	
+	width:550px;
 	margin:0 auto;
 }
 .new_banner a {
@@ -2275,12 +2275,12 @@ text-align: center;}
 	margin-bottom:50px;
 }
 .new_banner_img {
-	width:100%;	
+	width:100%;
 	float:none;
 }
 .new_banner > div:nth-child(1) {
 	margin:0 0 50px 0;
-}	
+}
 }
 /* 20190920 */
 
@@ -2299,7 +2299,7 @@ text-align: center;}
 /* ==========================================================================
     movie
    ========================================================================== */
-.movie .maincontents {
+.movie.maincontents {
 	background: #f88036;
 	color: #fff;
 	margin-bottom: 0;

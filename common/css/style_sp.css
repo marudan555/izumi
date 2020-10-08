@@ -2191,19 +2191,19 @@ height: 100%;
 /* ==========================================================================
     movie
    ========================================================================== */
-.movie .maincontents {
+.movie.maincontents {
 	background: #f88036;
 	color: #fff;
 	margin-bottom: 0;
 	padding-bottom: 4rem;
 }
-.movie .wrap-content h2 {	
+.movie .wrap-content h2 {
 	border-bottom: 1px solid #fff;
 	font-size: 18px;
 	margin-top: 40px;
 	padding-bottom: 0.3em;
 }
-.movie .movie_wrap {	
+.movie .movie_wrap {
 }
 .movie .movie_cnt {
 	width: 100%;
