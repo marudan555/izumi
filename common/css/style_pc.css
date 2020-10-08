@@ -2295,3 +2295,67 @@ text-align: center;}
     top:10px;
     right:-110px;
 }
+
+/* ==========================================================================
+    movie
+   ========================================================================== */
+.movie .maincontents {
+	background: #f88036;
+	color: #fff;
+	margin-bottom: 0;
+	padding-bottom: 4rem;
+}
+.movie .wrap-content h2 {
+	margin-top: 60px;
+	border-bottom: 1px solid #fff;
+	font-size: 30px;
+	padding-bottom: 0.3em;
+}
+.movie .wrap-content h2 br {
+	display: none;
+}
+.movie .movie_wrap {
+	display: flex;
+	justify-content: space-between;
+}
+.movie .movie_cnt {
+	width: 48%;
+}
+.movie .movie_cnt .iframe_wrap {
+	width: 100%;
+	padding-top: 56.3%;
+	position: relative;
+}
+.movie .movie_cnt .iframe_wrap iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100% !important;
+	height: 100% !important;
+}
+.movie .movie_cnt .movie_info {
+	margin-top: 30px;
+}
+.movie .movie_cnt .movie_info .date,
+.movie .movie_cnt .movie_info .title {
+	font-size: 20px;
+	font-weight: 600;
+}
+.movie .movie_cnt .movie_info .title {
+	margin-top: 0.8em;
+}
+.movie .movie_cnt .movie_info .text {
+	margin-top: 2em;
+	padding-top: 2em;
+	border-top: 1px solid #fff;
+}
+.movie .wrap-btn {
+	margin-top: 100px;
+}
+.movie .btn_detail {
+	box-shadow: none;
+}
+.movie .wrap-btn .btn_detail.back::after {
+	right: 10px;
+	left: auto;
+}

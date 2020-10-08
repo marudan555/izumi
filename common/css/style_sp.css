@@ -2187,3 +2187,66 @@ height: 100%;
     top:5px;
     right:-40px;
 }
+
+/* ==========================================================================
+    movie
+   ========================================================================== */
+.movie .maincontents {
+	background: #f88036;
+	color: #fff;
+	margin-bottom: 0;
+	padding-bottom: 4rem;
+}
+.movie .wrap-content h2 {	
+	border-bottom: 1px solid #fff;
+	font-size: 18px;
+	margin-top: 40px;
+	padding-bottom: 0.3em;
+}
+.movie .movie_wrap {	
+}
+.movie .movie_cnt {
+	width: 100%;
+}
+.movie .movie_cnt:nth-of-type(2) {
+	margin-top: 70px;
+}
+.movie .movie_cnt .iframe_wrap {
+	width: 100%;
+	padding-top: 56.3%;
+	position: relative;
+}
+.movie .movie_cnt .iframe_wrap iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100% !important;
+	height: 100% !important;
+}
+.movie .movie_cnt .movie_info {
+	margin-top: 30px;
+}
+.movie .movie_cnt .movie_info .date,
+.movie .movie_cnt .movie_info .title {
+	font-size: 16px;
+	font-weight: 600;
+}
+.movie .movie_cnt .movie_info .title {
+	margin-top: 0.8em;
+}
+.movie .movie_cnt .movie_info .text {
+	margin-top: 1.5em;
+	padding-top: 1.5em;
+	border-top: 1px solid #fff;
+}
+.movie .wrap-btn {
+	margin-top: 70px;
+}
+.movie .btn_detail {
+	box-shadow: none;
+	margin: 0 auto;
+}
+.movie .wrap-btn .btn_detail.back::after {
+	right: 10px;
+	left: auto;
+}
