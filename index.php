@@ -113,7 +113,7 @@
             </div>
             <div class="cont_inner banner_box" style="margin-top: 30px; text-align: center;">
               <a href="<?php echo home_url("/"); ?>azride">
-                <img src="<?php echo get_template_directory_uri(); ?>/common/images/banner02.jpg" alt="動画で見る住まい塾">
+                <img src="<?php echo get_template_directory_uri(); ?>/common/images/banner02.jpg" alt="動画で見る住まい塾" style="max-width: 450px;">
               </a>
             </div>
         </div>
