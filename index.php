@@ -111,15 +111,12 @@
                 </ul>
                 <div class="al_center"><a href="<?php echo home_url("/"); ?>news/" class="btn_all"><img src="<?php echo get_template_directory_uri(); ?>/common/images/top/btn_newall.svg" alt="VIEW ALL"></a></div>
             </div>
+            <div class="cont_inner banner_box" style="margin-top: 30px; text-align: center;">
+              <a href="<?php echo home_url("/"); ?>azride">
+                <img src="<?php echo get_template_directory_uri(); ?>/common/images/banner02.jpg" alt="動画で見る住まい塾">
+              </a>
+            </div>
         </div>
-
-        <section class="area_section_banner">
-          <div class="cont_inner">
-            <a href="<?php echo home_url("/"); ?>azride">
-              <img src="<?php echo get_template_directory_uri(); ?>/common/images/banner02.jpg" alt="動画で見る住まい塾">
-            </a>
-          </div>
-        </section>
 
         <section class="area_section_needs">
             <h2 class="lead_needs"><img src="<?php echo get_template_directory_uri(); ?>/common/images/top/lead_needs.svg" class="pc_only" alt="住まいのあらゆるニーズにワンストップでお応えします。"><span class="sp_only">住まいのあらゆるニーズに<br class="sp_only">ワンストップでお応えします。</span></h2>
