@@ -112,7 +112,7 @@
                 <div class="al_center"><a href="<?php echo home_url("/"); ?>news/" class="btn_all"><img src="<?php echo get_template_directory_uri(); ?>/common/images/top/btn_newall.svg" alt="VIEW ALL"></a></div>
             </div>
             <div class="cont_inner banner_box" style="margin-top: 30px; text-align: center;">
-              <a href="<?php echo home_url("/"); ?>azride">
+              <a href="<?php echo home_url("/"); ?>movie/">
                 <img src="<?php echo get_template_directory_uri(); ?>/common/images/banner02.jpg" alt="動画で見る住まい塾" style="max-width: 450px;">
               </a>
             </div>
