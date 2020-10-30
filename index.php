@@ -63,9 +63,7 @@
     </div>
 	</div>
 
- <!--<div class="wrap-bnr_azride"><a href="<?php echo home_url("/"); ?>azride" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/common/images/banner.jpg" alt="AZ RIDE"></a></div>-->
-
-    <article>
+     <article>
         <div class="area_section_news contarea sp_contarea">
             <div class="cont_inner">
                 <h2 class="tit_news prg">お知らせ・イベント情報</h2>
@@ -114,6 +112,15 @@
                 <div class="al_center"><a href="<?php echo home_url("/"); ?>news/" class="btn_all"><img src="<?php echo get_template_directory_uri(); ?>/common/images/top/btn_newall.svg" alt="VIEW ALL"></a></div>
             </div>
         </div>
+
+        <section class="area_section_banner">
+          <div class="cont_inner">
+            <a href="<?php echo home_url("/"); ?>azride">
+              <img src="<?php echo get_template_directory_uri(); ?>/common/images/banner02.jpg" alt="動画で見る住まい塾">
+            </a>
+          </div>
+        </section>
+
         <section class="area_section_needs">
             <h2 class="lead_needs"><img src="<?php echo get_template_directory_uri(); ?>/common/images/top/lead_needs.svg" class="pc_only" alt="住まいのあらゆるニーズにワンストップでお応えします。"><span class="sp_only">住まいのあらゆるニーズに<br class="sp_only">ワンストップでお応えします。</span></h2>
             <div class="pc_only area_needs_detail">
