@@ -661,6 +661,7 @@ a.disabled{
   }
 .wrap-link {
     width: 375px;
+    max-width: 100%;
     margin: 0 auto 65px;
 }
 .wrap-link li {

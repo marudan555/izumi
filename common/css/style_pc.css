@@ -535,6 +535,9 @@ a.disabled{
     width: 375px;
     margin: 0 auto 65px;
 }
+.wrap-link-wide {
+  width: 480px;
+}
 .wrap-link li {
     text-align: left;
     margin: 0 0 10px 0;
