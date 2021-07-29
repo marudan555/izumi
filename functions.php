@@ -179,4 +179,9 @@ function set_post_types_admin_order($wp_query){
 }
 add_filter('pre_get_posts', 'set_post_types_admin_order');
 
+/*
+ * WPバージョン非表示
+ */
+remove_action('wp_head','wp_generator');
+
 ?>
