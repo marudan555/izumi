@@ -83,6 +83,135 @@ $(function() {
 });
 </script>
 <?php endif; ?>
+<?php if ( is_page('hogehoge') ): ?>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+    <script>
+    $(function() {
+      var methods = {
+        tel: function(value, element){
+          return this.optional(element) || /^(0[5-9]0[0-9]{8}|0[1-9][1-9][0-9]{7})$/.test(value.replace(/[━.*‐.*―.*－.*\-.*ー.*\-]/gi,''));
+        },
+        katakana: function(value, element){
+          return this.optional(element) || /^[ア-ン゛゜ァ-ォャ-ョー「」、]+$/.test(value);
+        }
+      };
+
+      //独自の検証ルールを追加
+      $.each(methods, function(key) {
+        $.validator.addMethod(key, this);
+      });
+
+      // validate
+      $('form').validate({
+        rules: {
+            "お問合せ内容[]": {
+              required: true
+            },
+            "内容": {
+              maxlength: 500
+            },
+            "物件の種別": {
+              required: true
+            },
+            "物件所在地：住所": {
+              required: true,
+              maxlength: 100
+            },
+            "物件所在地：建物名・部屋番号": {
+              required: true,
+              maxlength: 100
+            },
+            "氏名": {
+              required: true,
+              maxlength: 100
+            },
+            "氏名フリガナ": {
+              required: true,
+              katakana: true,
+              maxlength: 100
+            },
+            "電話": {
+              required: true,
+              tel: true,
+              maxlength: 20
+            },
+            "メールアドレス": {
+              required: true,
+              email: true,
+              maxlength: 100
+            },
+            "住所": {
+              maxlength: 100
+            },
+            "建物名・部屋番号": {
+              maxlength: 100
+            },
+            "個人情報保護方針": {
+              required: true
+            }
+        },
+
+        messages: {
+            "お問合せ内容[]": {
+              required: '必須項目です'
+            },
+            "内容": {
+              maxlength: '500文字以内で入力してください'
+            },
+            "物件の種別": {
+              required: '必須項目です'
+            },
+            "物件所在地：住所": {
+              required: '必須項目です',
+              maxlength: '100文字以内で入力してください'
+            },
+            "物件所在地：建物名・部屋番号": {
+              required: '必須項目です',
+              maxlength: '100文字以内で入力してください'
+            },
+            "氏名": {
+              required: '必須項目です',
+              maxlength: '100文字以内で入力してください'
+            },
+            "氏名フリガナ": {
+              required: '必須項目です',
+              katakana: '全角カタカナで入力してください',
+              maxlength: '100文字以内で入力してください'
+            },
+            "電話": {
+              required: '必須項目です',
+              tel: '電話番号の形式で入力してください',
+              maxlength: '20文字以内で入力してください'
+            },
+            "メールアドレス": {
+              required: '必須項目です',
+              email: 'メールアドレスの形式で入力して下さい',
+              maxlength: '100文字以内で入力してください'
+            },
+            "住所": {
+              maxlength: '100文字以内で入力してください'
+            },
+            "建物名・部屋番号": {
+              maxlength: '100文字以内で入力してください'
+            },
+            "個人情報保護方針": {
+              required: '同意していただく必要がございます'
+            }
+        },
+
+        //エラーメッセージの表示場所を設定
+        errorPlacement: function(error, element){
+            var label = element.attr('data-label');
+            error.appendTo($('.is-error-'+label));
+        },
+
+        errorElement: "span",
+        errorClass: "is-error"
+        });
+    });
+
+    </script>
+<?php endif; ?>
 <?php wp_footer(); ?>
 </body>
 </html>
