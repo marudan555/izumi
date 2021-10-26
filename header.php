@@ -24,7 +24,7 @@
                 <nav class="header_nav">
                     <ul class="nav1">
                         <li><a href="<?php echo home_url("/"); ?>business/">事業内容</a></li>
-                        <li><a href="<?php echo home_url("/"); ?>company/">企業情報</a></li>
+                        <li><a href="<?php echo home_url("/"); ?>company/">企業情報・健康経営の取組</a></li>
                         <li><a href="<?php echo home_url("/"); ?>life/">泉パークタウンについて</a></li>
                         <li><a href="<?php echo home_url("/"); ?>access/">アクセス</a></li>
                         <li><a href="<?php echo home_url("/"); ?>adopt/">採用情報</a></li>

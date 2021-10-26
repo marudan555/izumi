@@ -2825,3 +2825,60 @@ button {
     padding-top: 39.67%;
     height: 0;
 }
+
+/* ==========================================================================
+    #sec_07_box01,#sec_07_box02
+   ========================================================================== */
+   
+#sec_07_box01{
+	border-bottom:1px solid #d6d6d6;
+}
+#sec_07_box02 {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+#sec_07_box02 p:first-child{
+	margin-bottom:20px;
+}
+#sec_07_box02 p{
+	font-size:13px;
+	margin-bottom:10px;
+}
+.sec_07_inner_box .inner_box {
+	margin-bottom:40px;		
+}
+.sec_07_inner_box .inner_box img {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+.sec_07_inner_box .inner_box:last-child {
+	margin-bottom:40px;		
+}
+.sec_07_inner_box h4{
+  text-align:center;
+  margin-bottom:20px;
+}
+.sec_07_inner_box ul {
+	
+}
+.sec_07_inner_box ul li {
+    position: relative;
+    padding-left: 10px;
+}
+.sec_07_inner_box ul li::before {
+    content: "";
+    width: 3px;
+    height: 3px;
+    background: #000;
+    position: absolute;
+    left: 0;
+    top: 12px;
+	border-radius:50%;
+}
+.sec_07_inner_box .ttl {
+	font-size:16px;	
+}
+.sec_07_inner_box .ttl span{
+	display:block;
+}
