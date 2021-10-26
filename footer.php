@@ -29,7 +29,7 @@
                             <li><a href="<?php echo home_url("/"); ?>construction/">施工例</a></li>
                         </ul>
                     </li>
-                    <li><a href="<?php echo home_url("/"); ?>company/">企業情報</a></li>
+                    <li><a href="<?php echo home_url("/"); ?>company/">企業情報・健康経営の取組</a></li>
 
                 </ul>
                 <ul class="navi_list">
@@ -164,7 +164,7 @@ $(function() {
               required: '必須項目です',
               maxlength: '100文字以内で入力してください'
             },
-            "物件所在地：建物名・部屋番号": {              
+            "物件所在地：建物名・部屋番号": {
               maxlength: '100文字以内で入力してください'
             },
             "氏名": {
