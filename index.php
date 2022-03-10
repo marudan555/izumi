@@ -208,9 +208,9 @@
                             <li>
                                 <h5 class="stit list01"><span>買いたい</span>（物件一覧）</h5>
                                 <ul>
-                                    <li><a href="https://map.cyber-estate.jp/map_b/index.asp?ggid=504003&sbt=3&scrd=2&sc4=1&sc5=1&service=2" target="_blank"><span>戸建て</span></a></li>
-                                    <li><a href="https://map.cyber-estate.jp/map_b/index.asp?ggid=504003&sbt=2&scrd=2&sc3=1&sc5=1&service=2" target="_blank"><span>マンション</span></a></li>
-                                    <li><a href="https://map.cyber-estate.jp/map_b/index.asp?ggid=504003&sbt=1&scrd=2&service=2" target="_blank"><span>土地</span></a></li>
+                                    <li><a href="https://izumi-pts.re-ws.jp/feature/317/" target="_blank"><span>戸建て</span></a></li>
+                                    <li><a href="https://izumi-pts.re-ws.jp/feature/2312/" target="_blank"><span>マンション</span></a></li>
+                                    <li><a href="https://izumi-pts.re-ws.jp/feature/2313/" target="_blank"><span>土地</span></a></li>
                                 </ul>
                             </li>
                             <li>
