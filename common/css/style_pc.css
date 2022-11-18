@@ -328,14 +328,29 @@ a.disabled{
 /* ==========================================================================
    top slider
    ========================================================================== */
-
+.mainvisual {
+	position: relative;
+}
+.mainvisual .mainvisual_img {
+	display: block;
+	width: 100%;
+}
+.mainvisual .mainvisual_imgSP {
+	display: none;
+}
+.mainvisual .wrap-scroll_bar {
+    display: none;
+}
+.mainvisual.area_mv {
+    margin-bottom: 50px;
+}
 .slider-wrap {
     display: block;
     position: relative;
 }
 .slider-wrap .slider-01 {
     display: block;
-    background: url("../images/slider/slider_01.jpg");
+    background: url("/wp-content/uploads/2022/10/slider_06.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     /* min-height: 500px; */
@@ -344,7 +359,7 @@ a.disabled{
 }
 .slider-wrap .slider-02 {
     display: block;
-    background: url("../images/slider/slider_02.jpg");
+    background: url("../images/slider/slider_01.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     /* min-height: 500px; */
@@ -353,7 +368,7 @@ a.disabled{
 }
 .slider-wrap .slider-03 {
     display: block;
-    background: url("../images/slider/slider_03.jpg");
+    background: url("../images/slider/slider_02.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     /* min-height: 500px; */
@@ -362,7 +377,7 @@ a.disabled{
 }
 .slider-wrap .slider-04 {
     display: block;
-    background: url("../images/slider/slider_04.jpg");
+    background: url("../images/slider/slider_03.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     /* min-height: 500px; */
@@ -370,6 +385,15 @@ a.disabled{
     height:0;
 }
 .slider-wrap .slider-05 {
+    display: block;
+    background: url("../images/slider/slider_04.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* min-height: 500px; */
+    padding-top: 39.123631%;
+    height:0;
+}
+.slider-wrap .slider-06 {
     display: block;
     background: url("../images/slider/slider_05.jpg");
     background-size: contain;

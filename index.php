@@ -14,7 +14,21 @@
 		<h2>このまちの<br>暮らしに根ざして</h2>
 		<p class="pArea">1975年設立、わたしたちは三菱地所グループ企業として、豊富な実績とノウハウを惜しみなく活かし、お客様にとって一番身近で頼りになる存在を目指しています。</p>
 	</div>
-	<div class="slider-wrap area_mv">
+	<!--mainvisual-->
+	<div class="mainvisual area_mv">
+		<a href="https://izumi-parktown-sindan.com/" target="_blank">
+			<img src="/wp-content/uploads/2022/11/mainvisual.jpg" alt="" class="mainvisual_img">
+			<img src="/wp-content/uploads/2022/11/mainvisualSP.jpg" alt="" class="mainvisual_imgSP">
+			<div class="wrap-slider-ttlimg"><img src="wp-content/themes/izumi/common/images/slider/sp_slider_ttl.png" alt="このまちの暮らしに根ざして"></div>
+			<div class="wrap-scroll_bar">
+				<p>Scroll</p>
+				<div class="box">
+					<div class="sp_scroll_bar"><i class="scroll-arrow"></i></div>
+				</div>
+			</div>
+		</a>
+	</div>
+	<!--<div class="slider-wrap area_mv">
         <div class="slider-01">
             <div class="wrap-slider-ttlimg"><img src="<?php echo get_template_directory_uri(); ?>/common/images/slider/sp_slider_ttl.png" alt="このまちの暮らしに根ざして"></div>
             <div class="wrap-scroll_bar">
@@ -60,7 +74,16 @@
                 </div>
             </div>
         </div>
-    </div>
+		<div class="slider-06">
+            <div class="wrap-slider-ttlimg"><img src="<?php echo get_template_directory_uri(); ?>/common/images/slider/sp_slider_ttl.png" alt="このまちの暮らしに根ざして"></div>
+            <div class="wrap-scroll_bar">
+                <p>Scroll</p>
+                <div class="box">
+                    <div class="sp_scroll_bar"><i class="scroll-arrow"></i></div>
+                </div>
+            </div>
+        </div>
+    </div>-->
 	</div>
 
      <article>
@@ -111,6 +134,26 @@
                 </ul>
                 <div class="al_center"><a href="<?php echo home_url("/"); ?>news/" class="btn_all"><img src="<?php echo get_template_directory_uri(); ?>/common/images/top/btn_newall.svg" alt="VIEW ALL"></a></div>
             </div>
+			<div class="cont_inner widebanner_box">
+              <a href="https://izumi-parktown-sindan.com/" target="_blank">
+                <img class="pc_only" src="/wp-content/uploads/2022/10/bnr_endoflife.jpg" alt="相続・終活 お悩み診断サイトが完成" style="">
+				<img class="sp_only" src="/wp-content/uploads/2022/10/bnr_endoflifeSP.jpg" alt="相続・終活 お悩み診断サイトが完成" style="">
+              </a>
+            </div>
+			<style media="screen">
+              .widebanner_box {
+                margin-top: 80px;
+                text-align: center;
+              }
+              .widebanner_box img {
+                max-width: 920px;
+              }
+              @media screen and (max-width: 840px) {
+               .widebanner_box img {
+                  max-width: 100%;
+                }
+              }
+            </style>
             <div class="cont_inner banner_box">
               <a href="<?php echo home_url("/"); ?>movie/">
                 <img src="<?php echo get_template_directory_uri(); ?>/common/images/banner02.jpg" alt="動画で見る住まい塾" style="">
@@ -141,7 +184,7 @@
                     <li class="link_exterior"><a href="<?php echo home_url("/"); ?>garden/#sec_02"><img src="<?php echo get_template_directory_uri(); ?>/common/images/top/link_exterior.png" alt="外装・エクステリア"></a></li>
                     <li class="link_garden"><a href="<?php echo home_url("/"); ?>garden/"><img src="<?php echo get_template_directory_uri(); ?>/common/images/top/link_garden.png" alt="お庭づくり"></a></li>
                     <li class="link_interior"><a href="<?php echo home_url("/"); ?>renovation/#sec_02"><img src="<?php echo get_template_directory_uri(); ?>/common/images/top/link_interior.png" alt="室内空間リフォーム"></a></li>
-                    <li class="link_parking"><a href="https://map.cyber-estate.jp/map/index.asp?ggid=804013&gid=804013&sbt=3&scrd=2&sc6=1&sc7=1&sc9=1&service=2" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/common/images/top/link_parking.png" alt="駐車場"></a></li>
+                    <li class="link_parking"><a href="https://www.at-parking.jp/izumi-parktown/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/common/images/top/link_parking.png" alt="駐車場"></a></li>
                     <li class="link_maintenance"><a href="<?php echo home_url("/"); ?>garden/#sec_03"><img src="<?php echo get_template_directory_uri(); ?>/common/images/top/link_maintenance.png" alt="お庭のメンテナンス"></a></li>
                     <li class="link_renovation"><a href="<?php echo home_url("/"); ?>renovation/#sec_01"><img src="<?php echo get_template_directory_uri(); ?>/common/images/top/link_renovation.png" alt="外装・リフォーム"></a></li>
 
@@ -218,7 +261,7 @@
                                 <ul>
                                     <li><a href="http://map.cyber-estate.jp/map/index.asp?ggid=804013&gid=804013&sbt=1&scrd=2&sc2=001000&service=2" target="_blank"><span>戸建て</span></a></li>
                                     <li><a href="http://map.cyber-estate.jp/map/index.asp?ggid=804013&gid=804013&sbt=1&scrd=2&sc2=010000&service=2" target="_blank"><span>マンション</span></a></li>
-                                    <li><a href="http://map.cyber-estate.jp/map/index.asp?ggid=804013&gid=804013&sbt=3&scrd=2&sc6=1&sc7=1&sc9=1&service=2" target="_blank"><span>駐車場</span></a></li>
+                                    <li><a href="https://www.at-parking.jp/izumi-parktown/" target="_blank"><span>駐車場</span></a></li>
                                 </ul>
                             </li>
                         </ul>

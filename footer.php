@@ -30,7 +30,7 @@
                         </ul>
                     </li>
                     <li><a href="<?php echo home_url("/"); ?>company/">企業情報・健康経営の取組</a></li>
-
+					<li><a href="<?php echo home_url("/"); ?>sdgs/">SDGsの取組</a></li>
                 </ul>
                 <ul class="navi_list">
 					<li><a href="<?php echo home_url("/"); ?>life/">泉パークタウンについて</a></li>
